@@ -69,3 +69,6 @@ a {
 .week_link:hover {
 	color: #efefef;
 }
+#songs {
+	display: none;
+}

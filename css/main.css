@@ -90,3 +90,9 @@ a {
 #year {
 	display: inline;
 }
+.film {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 0px;
+}

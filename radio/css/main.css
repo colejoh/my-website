@@ -8,11 +8,18 @@ header {
 	background: #fff;
 	color: #2C3E58;
 	height: 70px;
-	line-height: 70px;
 	border-bottom: 10px solid #7e91ae;
 	font-size: 24px;
 	font-weight: bolder;
 	text-align: center;
+}
+#logo {
+	line-height: 40px;
+}
+nav {
+	color: #2C3E58;
+	font-size: 18px;
+	font-weight: 200;
 }
 #content {
 	width: 800px;
@@ -58,7 +65,7 @@ header {
 }
 /*****ARCHIVE*****/
 a {
-	color: #fff;
+	color: inherit;
 	text-decoration: none;
 }
 .week_link {

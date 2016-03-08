@@ -17,7 +17,7 @@ html, body {
 .inner {
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 500px;
     padding: 10px;
 }
 #header {
@@ -67,4 +67,20 @@ html, body {
     line-height: 2.5em;
     color: #28405B;
     font-weight: 200;
+}
+#three {
+    background: #28405B;
+    width: 100vw;
+    height: 100vh;
+}
+#purpose_header {
+    font-size: 50px;
+    font-weight: bold;
+    color: #FDECDC;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#purpose_body {
+    color: #FDECDC;
+    line-height: 1.6em;
 }

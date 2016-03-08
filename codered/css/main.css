@@ -3,7 +3,6 @@ html, body {
 	margin: 0;
     font-family: 'Helvetica Neue', sans-serif;
     /*background: #FDECDC;*/
-    background: #28405B;
 }
 .outer {
     display: table;
@@ -28,6 +27,23 @@ html, body {
     font-weight: 900;
     margin-bottom: 30px;
 }
+#one {
+    height: 100vh;
+    width: 100vw;
+    background: #28405B;
+}
+#two {
+    width: 100vw;
+    height: 100vh;
+    background: #FDECDC;
+}
+#member_header {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
 #member_list {
 
 }
@@ -38,8 +54,7 @@ html, body {
 .member {
     text-align: left;
     line-height: 2.5em;
-    /*color: #28405B;*/
-    color: #FDECDC;
+    color: #28405B;
 
     font-weight: 200;
 }
@@ -50,6 +65,6 @@ html, body {
 .role {
     text-align: right;
     line-height: 2.5em;
-    color: #FDECDC;
+    color: #28405B;
     font-weight: 200;
 }

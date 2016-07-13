@@ -1,98 +1,62 @@
 html, body {
 	width: 100%;
+	height: 100vh;
 	margin: 0;
   	color: #FEFEFE;
-  	background: #2D3F57;
+  	background: #1D7EC6;
+	font-family: 'Lato', sans-serif;
 }
 a {
-    text-decoration: none;
-    color: inherit;
+	color: inherit;
 }
-.outer {
-    display: table;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-.middle {
-    display: table-cell;
-    vertical-align: middle;
-}
-.inner {
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    padding: 10px;
-}
-#name {
-    font-size: 50px;
-    font-weight: 900;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 900;
-    color: #FFF;
-}
-#body {
-    font-size: 18px;
-    font-weight: 200;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    line-height: 1.6em;
-	font-family: 'Hevetica Neue', sans-serif;
-}
-.underline {
-    text-decoration: underline;
-    font-weight: bold;
-}
-#links {
-    font-weight: 600;
-    font-size: 18px;
-	font-family: 'Helvetica Neue';
-}
-#spacer {
-	height: 100vh;
-}
-#blog_wrapper {
-	background: #fff;
-	width: 100%;
-	padding: 30px 0px;
-	display: none;
-}
-#blog_header { 
+.wassup {
 	text-align: center;
-	font-family: 'Hevetica Neue', sans-serif;
-	color: #333;
+	position: relative;
+	top: 50%;
+    transform: translateY(-50%);
+}
+.name {
+	font-size: 60px;
+	text-transform: uppercase;
 	font-weight: 900;
-	padding: 10px 0px;
-	font-size: 30px;
+	font-style: italic;
+}
+.whereami {
+	margin: 20px;
+}
+.links {
+	margin-top: 20px;
+}
+.link {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.projects {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100vh;
+	background: #1D7EC6;
+	text-align: center;
 	display: none;
 }
-.post {
-	color: #333;
-	max-width: 500px;
-	margin: 10px auto;
-	font-family: 'Hevetica Neue', sans-serif;
+.project-header {
+	font-size: 50px;
+	text-decoration: underline;
+	font-style: italic;
+	text-transform: uppercase;
+	font-weight: 900;
 }
-.post_header {
+.close {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70px;
+	height: 50px;
 	text-align: center;
-	font-weight: 600;
-	font-size: 18px;
+	line-height: 50px;
 }
-.post_date {
-	font-weight: 200;
-	text-align: center;
-	font-size: 15px;
-	padding: 5px 0px;
-}
-.post_body {
-	line-height: 1.6em;
-	
-}
-#year {
-	display: inline;
-}
-.film {
-	width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px 0px;
+.project {
+	margin-top: 50px;
 }

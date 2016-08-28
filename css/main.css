@@ -16,6 +16,7 @@ header {
 header .logo {
     font-size: 36px;
     font-weight: 700;
+    padding-top: 10px;
 }
 .types {
   margin-top: 10px;
@@ -43,31 +44,48 @@ header .logo {
   list-style-type: none;
   position: relative;
   width: 6px;
-  background: #333333;
-  padding-top: 50px;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #333;
 }
-
 .timeline ul li::after {
   content: '';
   position: absolute;
   left: 50%;
   bottom: 0;
-  transform: translateX(-50%);
-  width: 30px;
-  height: 30px;
+  transform: translateX(-50%) translateY(-30px);
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background: inherit;
 }
-
 .timeline ul li div {
   position: relative;
   bottom: 0;
   width: 400px;
   padding: 15px;
-  left: 45px;
+  color: #fff;
+  text-align: center;
   border-radius: 4px;
 }
-
+.timeline ul li h4 {
+  font-size: 30px;
+}
+.timeline ul li h5 {
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: 5px;
+}
+.timeline ul li .work-item {
+  background: #1D7EC6;
+}
+.timeline ul li .project-item {
+  background: #C92228;
+}
+.timeline ul li .art-item {
+  background: #FFE324;
+}
 .timeline ul li div::before {
   content: '';
   position: absolute;
@@ -75,39 +93,46 @@ header .logo {
   width: 0;
   height: 0;
   border-style: solid;
+}
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+.timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #F45B69 transparent transparent;
 }
-.work-item {
-  background: #1D7EC6
-}
-.project-item {
-  background: #C92228;
-}
-.art-item {
-  background: #FFE324;
-}
-.timeline ul li .work-item::before {
+.timeline ul li:nth-child(odd) .work-item::before {
   border-color: transparent #1D7EC6 transparent transparent;
 }
-.timeline ul li .project-item::before {
+.timeline ul li:nth-child(odd) .project-item::before {
   border-color: transparent #C92228 transparent transparent;
 }
-.timeline ul li .art-item::before {
+.timeline ul li:nth-child(odd) .art-item::before {
   border-color: transparent #FFE324 transparent transparent;
 }
-.timeline ul li {
-  color: #fff
+.timeline ul li:nth-child(even) div {
+  left: -439px;
 }
-.timeline ul li h4 {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 18px;
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #F45B69;
 }
-.timeline ul li h5 {
-  font-weight: 100;
+.timeline ul li:nth-child(even) .work-item::before {
+  border-color: transparent transparent transparent #1D7EC6;
+}
+.timeline ul li:nth-child(even) .project-item::before {
+  border-color: transparent transparent transparent #C92228;
+}
+.timeline ul li:nth-child(even) .art-item::before {
+  border-color: transparent transparent transparent #FFE324;
+}
+
+/* FOOTER */
+footer {
+  background: #333;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
   text-align: center;
-  margin-top: 10px;
 }

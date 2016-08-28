@@ -1,62 +1,113 @@
 html, body {
-	width: 100%;
-	height: 100vh;
-	margin: 0;
-  	color: #FEFEFE;
-  	background: #1D7EC6;
-	font-family: 'Lato', sans-serif;
+    width: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
 }
-a {
-	color: inherit;
+header {
+    width: 100%;
+    background: #333333;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: -17px;
+    height: 120px;
 }
-.wassup {
-	text-align: center;
-	position: relative;
-	top: 50%;
-    transform: translateY(-50%);
+header .logo {
+    font-size: 36px;
+    font-weight: 700;
 }
-.name {
-	font-size: 60px;
-	text-transform: uppercase;
-	font-weight: 900;
-	font-style: italic;
+.types {
+  margin-top: 10px;
 }
-.whereami {
-	margin: 20px;
+.type {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border-radius: 4px;
 }
-.links {
-	margin-top: 20px;
+#work-button {
+    background: #1D7EC6;
 }
-.link {
-	padding-left: 10px;
-	padding-right: 10px;
+#project-button {
+    background: #C92228;
 }
-.projects {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	min-height: 100vh;
-	background: #1D7EC6;
-	text-align: center;
-	display: none;
+#art-button {
+    background: #FFE324;
 }
-.project-header {
-	font-size: 50px;
-	text-decoration: underline;
-	font-style: italic;
-	text-transform: uppercase;
-	font-weight: 900;
+.timeline {
+  background: #F4F4F4;
+  min-height: calc(100vh - 120px)
 }
-.close {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 70px;
-	height: 50px;
-	text-align: center;
-	line-height: 50px;
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  background: #333333;
+  padding-top: 50px;
 }
-.project {
-	margin-top: 50px;
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  left: 45px;
+  border-radius: 4px;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #F45B69 transparent transparent;
+}
+.work-item {
+  background: #1D7EC6
+}
+.project-item {
+  background: #C92228;
+}
+.art-item {
+  background: #FFE324;
+}
+.timeline ul li .work-item::before {
+  border-color: transparent #1D7EC6 transparent transparent;
+}
+.timeline ul li .project-item::before {
+  border-color: transparent #C92228 transparent transparent;
+}
+.timeline ul li .art-item::before {
+  border-color: transparent #FFE324 transparent transparent;
+}
+.timeline ul li {
+  color: #fff
+}
+.timeline ul li h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+.timeline ul li h5 {
+  font-weight: 100;
+  text-align: center;
+  margin-top: 10px;
 }

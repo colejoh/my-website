@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+        <!-- My Styles -->
+        <link rel="stylesheet" href="main.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="projects closed" id="projects-pane">
+            <h3>Projects</h3>
+            <div class="project">CS307 Project</div>
+            <div class="project">Find a Job</div>
+        </div>
+        <nav>
+            <div class="logo">
+                LANCER
+            </div>
+            <div class="nav-item">
+                <i class="fa fa-comment fa-lg" aria-hidden="true"></i>
+            </div>
+            <div class="nav-item">
+                <i class="fa fa-list-alt fa-lg" aria-hidden="true"></i>
+            </div>
+            <div class="nav-item">
+                <i class="fa fa-list fa-lg" aria-hidden="true" onclick="toggleProjectState()" id="show-projects"></i>
+            </div>
+        </nav>
+        <div class="content">
+            Content
+        </div>
+    </body>
+</html>

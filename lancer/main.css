@@ -1,0 +1,66 @@
+body {
+    background: #E9E6E5;
+    font-family: 'Open Sans', sans-serif;
+}
+.projects {
+    width: 200px;
+    height: 100%;
+    background: #fff;
+    float: left;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.projects.closed {
+    width: 0px;
+    transition: .5s;
+}
+.projects.open {
+    width: 200px;
+    transition: .5s;
+}
+.projects h3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.project {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 10px;
+}
+.project:hover {
+    background: #efefef;
+    cursor: pointer;
+}
+nav {
+    height: 100%;
+    width: 60px;
+    background: #2D3445;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+}
+.logo {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+.nav-item {
+    margin: 40px 0;
+}
+nav i {
+    color: #727A8F;
+    transition: .2s;
+}
+nav i:hover {
+    transform: scale(1.05);
+    transition: .2s;
+}
+.content {
+    float: left;
+    padding: 10px;
+}

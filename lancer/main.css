@@ -1,11 +1,11 @@
 body {
-    background: #E9E6E5;
+    background: #fff;
     font-family: 'Open Sans', sans-serif;
 }
 .projects {
     width: 200px;
     height: 100%;
-    background: #fff;
+    background: #EFEFEF;
     float: left;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -28,15 +28,16 @@ body {
     font-size: 11px;
     font-weight: 700;
     padding: 10px;
+    white-space: nowrap;
 }
 .project:hover {
-    background: #efefef;
+    background: #fff;
     cursor: pointer;
 }
 nav {
     height: 100%;
-    width: 60px;
-    background: #2D3445;
+    width: 80px;
+    background: #353535;
     float: left;
     text-align: center;
     padding-top: 10px;
@@ -53,12 +54,21 @@ nav {
     margin: 40px 0;
 }
 nav i {
-    color: #727A8F;
+    color: #646464;
     transition: .2s;
 }
 nav i:hover {
     transform: scale(1.05);
     transition: .2s;
+}
+.nav-item .icon {
+    height: 25px;
+}
+.nav-item .label {
+    color: #646464;
+    margin-top: 5px;
+    font-size: 9px;
+    text-transform: uppercase;
 }
 .content {
     float: left;

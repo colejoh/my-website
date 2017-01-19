@@ -183,7 +183,7 @@ header img {
 .card.event .image {
     width: 100%;
     height: 300px;
-    background: #e8e8e8;
+    background: #f4f4f4;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -216,7 +216,7 @@ header img {
     color: #266FFD;
 }
 .detail {
-    background: #EFEFEF;
+    background: #FFF;
     width: 50%;
     height: calc(100vh);
     position: fixed;

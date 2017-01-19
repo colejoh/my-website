@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans';
+    color: #373737;
+}
+header {
+    height: 60px;
+    border-bottom: 1px solid #EFEFEF;
+    line-height: 60px;
+}
+header img {
+    margin-top: 9px;
+    margin-left: 20px;
+}
+.row {
+  margin: 0;
+}
+.create-event {
+    height: 40px;
+    line-height: 37px;
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 140px;
+    background: #4DCE73;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    transition: .3s;
+    font-size: 11px;
+}
+.create-event:hover {
+    background: #44B964;
+    transition: .3s;
+}
+.section-title {
+  width: 100%;
+  height: 9px;
+  border-bottom: 1px solid #EFEFEF;
+  text-align: left;
+  margin-top: 20px;
+}
+.section-title span {
+  font-size: 11px;
+  background-color: #FFF;
+  padding-right: 10px;
+  color: #D6D6D6;
+}
+.card {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #EFEFEF;
+    margin-top: 20px;
+    transition: .5s ;
+}
+.card:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    transition: .5s ;
+}
+.card .image {
+    width: 150px;
+    height: 100px;
+    float: left;
+}
+.invite {
+    border-bottom: none;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-left: none;
+}
+.past {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.card .info {
+    float: left;
+    padding: 8px;
+    line-height: 1.3em;
+    width: calc(100% - 260px);
+    height: 100px;
+}
+.card .info .title {
+    font-size: 14px;
+    font-weight: bold;
+}
+.card .info .where {
+    font-size: 11px;
+}
+.card .info .when {
+    font-size: 11px;
+}
+.card .info .what-time {
+    font-size: 11px;
+}
+.event-page-link {
+    width: 110px;
+    font-size: 11px;
+    float: left;
+    margin-top: 65px;
+    color: #D6D6D6;
+    transition: .3s;
+}
+.event-page-link:hover {
+    color: #266FFD;
+    transition: .3s;
+}
+.response {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+}
+.response .yes {
+    background: #34C84A;
+    border-bottom-left-radius: 4px;
+}
+.response .no {
+    background: #FC615D;
+    border-bottom-right-radius: 4px;
+}
+.response .selected {
+    box-shadow: inset 0 0 5px rgba(0,0,0,.3);
+}
+.that-all {
+    margin-top: 10px;
+    text-align: center;
+    color: #D6D6D6;
+    font-size: 11px;
+}
+/* EVENT PAGE */
+.feed {
+    width: 50%;
+    padding: 20px;
+}
+.feed.std-feed {
+    margin-left: 25%;
+    transition: .5s;
+}
+.feed.detail-feed {
+    float: left;
+    margin-left: 0;
+    transition: .5s;
+}
+.card textarea {
+    width: 100%;
+    height: 100px;
+    border: none;
+    resize: none;
+    padding: 10px;
+    border: 1px solid #efefef;
+}
+.card textarea:focus {
+    outline: none;
+    border: 1px solid #266FFD;
+}
+.card.new .response {
+    color: #373737;
+    border-top: 1px solid #EFEFEF;
+}
+.card.new .response .col-xs-6:first-child {
+    border-right: 1px solid #EFEFEF;
+}
+.comment {
+    padding: 10px;
+}
+.comment .name {
+    font-weight: bold;
+}
+.comment .comment-body {
+    font-size: 11px;
+    line-height: 1.6em;
+}
+.card.event .response {
+    color: #373737;
+    border-top: 1px solid #EFEFEF;
+}
+.card.event .response .like {
+    border-right: 1px solid #EFEFEF;
+    color: #266FFD;
+}
+.card.event .response .reply {
+    color: #266FFD;
+}
+.detail {
+    background: #ECECEC;
+    width: 50%;
+    height: calc(100vh - 60px);
+    position: fixed;
+    top: 60px;
+    padding: 20px;
+    border-left: 1px solid #444444;
+    box-shadow: 0 0 10px rgba(0,0,0,0.12);
+}
+.detail.hide-detail {
+    right: -50%;
+    transition: .5s;
+}
+.detail.show-detail {
+    right: 0;
+    transition: .5s;
+}
+.detail .card {
+  background: #fff;
+}
+.replies .reply {
+    border-bottom: 1px solid #EFEFEF;
+    padding: 10px;
+}
+.replies .reply .name {
+    font-weight: bold;
+}
+.replies .reply .text {
+  font-size: 11px;
+  line-height: 1.6em;
+}

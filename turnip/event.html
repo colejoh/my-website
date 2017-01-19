@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+        <!-- My Styles -->
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src="img/logo.svg" height="40px" width="auto"/>
+            <button class="create-event pull-right">+ Create Event</button>
+        </header>
+        <div class="feed std-feed" id="feed">
+            <div class="card new">
+                <textarea placeholder="Post New Comment"></textarea>
+                <div class="response">
+                    <div class="col-xs-6">
+                        Post Photo
+                    </div>
+                    <div class="col-xs-6">
+                        Post Text
+                    </div>
+                </div>
+            </div>
+            <div class="card event">
+                <div class="comment">
+                    <div class="name">
+                        Cole Johnson
+                    </div>
+                    <div class="comment-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    </div>
+                </div>
+                <div class="response row">
+                    <div class="col-xs-6 like">
+                        Like
+                    </div>
+                    <div class="col-xs-6 reply" onclick="toggleDisplayState()">
+                        Comment
+                    </div>
+                </div>
+            </div>
+            <div class="card event">
+                <div class="comment">
+                    <div class="name">
+                        Keegan Irby
+                    </div>
+                    <div class="comment-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    </div>
+                </div>
+                <div class="response row">
+                    <div class="col-xs-6 like">
+                        Like
+                    </div>
+                    <div class="col-xs-6 reply">
+                        Comment
+                    </div>
+                </div>
+            </div>
+            <div class="card event">
+                <div class="comment">
+                    <div class="name">
+                        Abigail Alderson
+                    </div>
+                    <div class="comment-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    </div>
+                </div>
+                <div class="response row">
+                    <div class="col-xs-6 like">
+                        Like
+                    </div>
+                    <div class="col-xs-6 reply">
+                        Comment
+                    </div>
+                </div>
+            </div>
+            <div class="card event">
+                <div class="comment">
+                    <div class="name">
+                        Kyle Pollina
+                    </div>
+                    <div class="comment-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    </div>
+                </div>
+                <div class="response row">
+                    <div class="col-xs-6 like">
+                        Like
+                    </div>
+                    <div class="col-xs-6 reply">
+                        Comment
+                    </div>
+                </div>
+            </div>
+            <div class="card event">
+                <div class="comment">
+                    <div class="name">
+                        Kevin Cardona
+                    </div>
+                    <div class="comment-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    </div>
+                </div>
+                <div class="response row">
+                    <div class="col-xs-6 like">
+                        Like
+                    </div>
+                    <div class="col-xs-6 reply">
+                        Comment
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="detail hide-detail" id="detail">
+            <div class="card">
+                <div class="comment">
+                    <div class="name">
+                        Cole Johnson
+                    </div>
+                    <div class="comment-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    </div>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="replies">
+                    <div class="reply">
+                        <div class="name">Abigail Alderson</div>
+                        <div class="text">
+                            Sucks to suck
+                        </div>
+                    </div>
+                    <div class="reply">
+                        <div class="name">Keegan Irby</div>
+                        <div class="text">
+                            Nice latin skills!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

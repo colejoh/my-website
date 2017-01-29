@@ -19,11 +19,13 @@ a {
 	font-size: 60px;
 	text-transform: uppercase;
 	font-weight: 900;
-	font-style: italic;
+	/*font-style: italic;*/
 }
 .whereami {
 	margin: 20px auto;
-  	width: 500px;
+  	max-width: 500px;
+	padding: 0 20px;
+	line-height: 1.6em;
 }
 .links {
 	margin-top: 20px;

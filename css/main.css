@@ -23,10 +23,10 @@ a {
 	/*font-style: italic;*/
 }
 .whereami {
-	margin: 20px auto;
   	max-width: 500px;
-	padding: 0 20px;
+	padding: 20px;
 	line-height: 1.6em;
+	margin: auto;
 }
 .links {
 	margin-top: 20px;

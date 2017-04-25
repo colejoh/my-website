@@ -147,3 +147,9 @@ footer {
     padding: 16px;
     color: #fff;
 }
+.price {
+    background: #F6FAFB;
+    padding: 16px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin-top: 50px;
+}

@@ -32,6 +32,9 @@ nav .logo {
     color: #fff;
     font-weight: bold;
 }
+nav .logo:hover {
+    text-decoration: none;
+}
 nav button {
     width: 150px;
     padding: 12px 0px;

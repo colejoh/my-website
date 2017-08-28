@@ -3,70 +3,59 @@ html, body {
 	height: 100vh;
 	margin: 0;
 	color: #fff;
-  	/*color: #686E8E;*/
-  	/*background: #F6F7FB;*/
 	font-family: 'Lato', sans-serif;
-	/*background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);*/
-	/*background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);*/
-	/*background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);*/
 	background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
 }
 a {
 	color: inherit;
 }
-.wassup {
-	text-align: center;
-	position: relative;
-	top: 50%;
-    transform: translateY(-50%);
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
 }
-.name {
-	font-size: 60px;
-	text-transform: uppercase;
-	font-weight: 900;
-	/*color: #538CFD;*/
-	color: #fff;
-	/*font-style: italic;*/
-}
-.whereami {
-  	max-width: 500px;
-	padding: 20px;
-	line-height: 1.6em;
+.info {
+	width: 500px;
 	margin: auto;
 }
-.links {
-	margin-top: 20px;
-}
-.link {
-	padding-left: 10px;
-	padding-right: 10px;
-}
-.projects {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	min-height: 100vh;
-	background: #1D7EC6;
+h1 {
+	font-size: 60px;
 	text-align: center;
-	display: none;
-}
-.project-header {
-	font-size: 50px;
-	text-decoration: underline;
-	font-style: italic;
 	text-transform: uppercase;
-	font-weight: 900;
+	margin: 0;
 }
-.close {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 70px;
-	height: 50px;
+p {
+	line-height: 1.6em;
 	text-align: center;
-	line-height: 50px;
+	margin-bottom: 30px;
 }
-.project {
-	margin-top: 50px;
+.links {
+	text-align: center;
+}
+button {
+	white-space: nowrap;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 14px;
+	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+	background: #fff;
+	border-radius: 4px;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .025em;
+	color: #6772e5;
+	text-decoration: none;
+	transition: all .15s ease;
+	border: none;
+	cursor: pointer;
+	margin: 0 10px;
+}
+button:hover {
+	color: #7795f8;
+	transform: translateY(-1px);
+	box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
 }

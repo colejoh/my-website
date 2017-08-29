@@ -59,3 +59,23 @@ button:hover {
 	transform: translateY(-1px);
 	box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
 }
+@media (max-width: 455px) {
+	.info {
+		padding: 0 30px;
+	}
+	h1 {
+		font-size: 40px;
+	}
+	p {
+		font-size: 14px;
+	}
+}
+@media (max-width: 418px) {
+	.links {
+		margin: 0 -30px;
+	}
+	button {
+		font-size: 11px;
+		margin: 0 5px;
+	}
+}

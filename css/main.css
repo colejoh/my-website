@@ -2,9 +2,9 @@ html, body {
 	width: 100%;
 	height: 100vh;
 	margin: 0;
-	color: #fff;
+	color: #323648;
 	font-family: 'Lato', sans-serif;
-	background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+	/*background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);*/
 }
 a {
 	color: inherit;
@@ -23,13 +23,28 @@ a {
 h1 {
 	font-size: 60px;
 	text-align: center;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	margin: 0;
+}
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: normal;
 }
 p {
 	line-height: 1.6em;
 	text-align: center;
 	margin-bottom: 30px;
+}
+p a {
+	/*text-decoration: none;*/
+	/*font-weight: bold;*/
+	text-decoration: none;
+	font-style: italic;
+}
+p a:hover {
+	text-decoration: underline;
 }
 .links {
 	text-align: center;
@@ -37,45 +52,60 @@ p {
 button {
 	white-space: nowrap;
 	display: inline-block;
-	height: 40px;
-	line-height: 40px;
-	padding: 0 14px;
+	/*height: 40px;*/
+	padding: 18px 24px;
 	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-	background: #fff;
+	background: #3F46AD;
 	border-radius: 4px;
 	font-size: 15px;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: .025em;
-	color: #6772e5;
+	color: #fff;
 	text-decoration: none;
 	transition: all .15s ease;
 	border: none;
 	cursor: pointer;
-	margin: 0 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 button:hover {
-	color: #7795f8;
+	/*color: #7795f8;*/
 	transform: translateY(-1px);
 	box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+	background: #1c299d;
 }
-@media (max-width: 455px) {
+@media (max-width: 488px) {
 	.info {
-		padding: 0 30px;
+		padding: 0 10px;
 	}
 	h1 {
-		font-size: 40px;
+		font-size: 36px;
 	}
 	p {
 		font-size: 14px;
 	}
-}
-@media (max-width: 418px) {
 	.links {
-		margin: 0 -30px;
+		margin: 0 auto;
+		width: 170px;
+		margin-bottom: 40px;
+		margin-top: -20px;
 	}
 	button {
 		font-size: 11px;
-		margin: 0 5px;
+		width: 150px;
 	}
+}
+.stripes {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: url('../img/stripes.svg');
+	height: 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	z-index: -1;
 }

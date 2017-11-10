@@ -4,7 +4,10 @@ html, body {
 	margin: 0;
 	color: #323648;
 	font-family: 'Lato', sans-serif;
-	/*background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);*/
+	background: url('../img/stripes.svg');
+	background-position: bottom;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 a {
 	color: inherit;
@@ -23,7 +26,6 @@ a {
 h1 {
 	font-size: 60px;
 	text-align: center;
-	/*text-transform: uppercase;*/
 	margin: 0;
 }
 h2 {
@@ -38,8 +40,6 @@ p {
 	margin-bottom: 30px;
 }
 p a {
-	/*text-decoration: none;*/
-	/*font-weight: bold;*/
 	text-decoration: none;
 	font-style: italic;
 }
@@ -52,7 +52,6 @@ p a:hover {
 button {
 	white-space: nowrap;
 	display: inline-block;
-	/*height: 40px;*/
 	padding: 18px 24px;
 	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
 	background: #3F46AD;
@@ -71,7 +70,6 @@ button {
 	margin-bottom: 10px;
 }
 button:hover {
-	/*color: #7795f8;*/
 	transform: translateY(-1px);
 	box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
 	background: #1c299d;
@@ -96,16 +94,4 @@ button:hover {
 		font-size: 11px;
 		width: 150px;
 	}
-}
-.stripes {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	background: url('../img/stripes.svg');
-	height: 50%;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: bottom;
-	z-index: -1;
 }

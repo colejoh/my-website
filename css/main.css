@@ -4,7 +4,7 @@ html, body {
 	margin: 0;
 	color: #323648;
 	font-family: 'Lato', sans-serif;
-	background: url('../img/stripes.svg');
+	/*background: url('../img/stripes.svg');*/
 	background-position: bottom;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -20,12 +20,13 @@ a {
 	width: 100%;
 }
 .info {
-	width: 600px;
+	max-width: 540px;
 	margin: auto;
+	text-align: center;
 }
 h1 {
 	font-size: 60px;
-	text-align: center;
+	/*text-align: left;*/
 	margin: 0;
 }
 h2 {
@@ -37,6 +38,13 @@ h2 {
 p {
 	line-height: 1.6em;
 	text-align: center;
+	margin-top: 10px;
+	/*margin-bottom: 10px;*/
+}
+p:first-child {
+	margin-top: 30px;
+}
+p:last-child {
 	margin-bottom: 30px;
 }
 p a {
@@ -47,7 +55,7 @@ p a:hover {
 	text-decoration: underline;
 }
 .links {
-	text-align: center;
+	/*text-align: left;*/
 }
 button {
 	white-space: nowrap;

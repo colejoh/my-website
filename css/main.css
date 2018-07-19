@@ -21,31 +21,37 @@ a { color: inherit; }
 	margin: auto;
 	text-align: center;
 }
-.info p:first-child { margin-top: 30px; }
-.info p:last-child { margin-top: 30px; }
+.p:first-of-type { margin-top: 30px; }
 h1 {
 	font-size: 60px;
 	margin: 0;
 }
-
-p {
+.p {
 	line-height: 2.5em;
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
-	width: 480px;
+	display: flex;
+	padding: 0 10px;
 }
-p a:hover {
+.p div:first-child {margin-right: 5px;}
+.p a:hover {
 	text-decoration: underline;
 }
 .slack {
-	display: flex;
-	align-items: center;
-	width: 480px;
-	margin: 0 auto;
+	background: url('../img/slack.png');
+	width: 20px;
+	height: 20px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	line-height: 2em;
+	margin-top: 10px;
 }
 .slack img {
 	margin-right: 5px;
+}
+.links {
+	margin-top: 30px;
 }
 button {
 	white-space: nowrap;
@@ -85,24 +91,20 @@ button#linkedin {
 @media (max-width: 488px) {
 	.info {
 		padding: 0 10px;
+		width: 100%;
 	}
 	h1 {
 		font-size: 36px;
 	}
-	p {
+	.p {
 		font-size: 14px;
 	}
-	.links {
-		margin: 0 auto;
-		width: 170px;
-		margin-bottom: 40px;
-		margin-top: -20px;
+	.slack {
+		width: 14px;
+		height: 14px;
 	}
 	button {
 		font-size: 11px;
 		width: 150px;
-	}
-	.col-6 {
-		width: 100%;
 	}
 }

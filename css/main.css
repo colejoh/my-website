@@ -8,9 +8,7 @@ html, body {
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-a {
-	color: inherit;
-}
+a { color: inherit; }
 .wrapper {
 	display: flex;
 	align-items: center;
@@ -37,10 +35,6 @@ p {
 	margin-right: auto;
 	width: 480px;
 }
-/* p a {
-	text-decoration: none;
-	font-style: italic;
-} */
 p a:hover {
 	text-decoration: underline;
 }
@@ -52,9 +46,6 @@ p a:hover {
 }
 .slack img {
 	margin-right: 5px;
-}
-.links {
-	/*text-align: left;*/
 }
 button {
 	white-space: nowrap;
@@ -90,55 +81,6 @@ button#dribbble {
 }
 button#linkedin {
 	background: #0077B5;
-}
-.projects {
-	margin-top: 100px;
-}
-.projects h2 {
-	font-weight: bold;
-	text-transform: none;
-	font-size: 24px;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.col-6 {
-	width: 50%;
-	float: left;
-	padding: 0 10px;
-	box-sizing: border-box;
-}
-.card {
-	padding: 12px;
-	background: #F5F5F5;
-	border-radius: 4px;
-	text-align: left;
-	margin-bottom: 20px;
-}
-.card h3 {
-	font-size: 18px;
-	margin: 0;
-}
-.card p {
-	text-align: left;
-	margin: 10px 0;
-	line-height: 1.5em;
-	font-size: 13px;
-}
-.card-link {
-	float: left;
-	text-decoration: none;
-	font-size: 13px;
-}
-.card-link:hover {
-	text-decoration: underline;
-}
-.card-link:not(:first-child) {
-	border-left: 1px solid #333;
-	padding-left: 5px;
-	margin-left: 5px;
 }
 @media (max-width: 488px) {
 	.info {

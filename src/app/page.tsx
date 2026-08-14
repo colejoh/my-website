@@ -12,7 +12,8 @@ export default function Home() {
             <div className="w-full max-w-[576px] flex flex-col grow">
                 <div className="flex items-center justify-between">
                     <div className="w-10 h-10 flex items-center justify-center bg-black rounded-xl">
-                        <Me className="w-8 h-8 -rotate-12" />
+                        CJ
+                        {/* <Me className="w-8 h-8 -rotate-12" /> */}
                     </div>
                     <div>
                         <ExternalLink href="https://linkedin.com/in/colehjohn">
@@ -55,11 +56,8 @@ export default function Home() {
                                 <li>
                                     helped build the first version{" "}
                                     <ExternalLink href="https://withjuly.com">
-                                        July
+                                        July.
                                     </ExternalLink>
-                                    <span className="hidden md:inline">
-                                        , and raised $2.3M.
-                                    </span>
                                 </li>
                                 <li>
                                     worked on FE infra at{" "}

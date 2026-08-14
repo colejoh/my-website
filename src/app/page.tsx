@@ -38,7 +38,8 @@ export default function Home() {
                                     <ExternalLink href="https://joinrunway.io">
                                         Runway
                                     </ExternalLink>
-                                    .
+                                    , and helping over 200,000 students get
+                                    jobs.
                                 </li>
                             </ul>
                         </div>

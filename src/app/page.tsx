@@ -11,7 +11,7 @@ export default function Home() {
         <div className="w-full h-full bg-white px-4  flex justify-center py-8">
             <div className="w-full max-w-[576px] flex flex-col grow">
                 <div className="flex items-center justify-between">
-                    <div className="w-10 h-10 flex items-center justify-center bg-black rounded-xl">
+                    <div className="w-10 h-10 text-white font-bold flex items-center justify-center bg-black rounded-xl">
                         CJ
                         {/* <Me className="w-8 h-8 -rotate-12" /> */}
                     </div>

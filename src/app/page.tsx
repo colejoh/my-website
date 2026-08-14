@@ -65,11 +65,8 @@ export default function Home() {
                                         Slack
                                     </ExternalLink>
                                     <span className="hidden md:inline">
-                                        . (and got a{" "}
-                                        <ExternalLink href="https://ppubs.uspto.gov/api/patents/html/11477296?source=USPAT&requestToken=eyJzdWIiOiI2NTljMmE2My1kZWEzLTQ4NWMtOWVkNS1iM2ViMjUwMWMyZWUiLCJ2ZXIiOiI3YjcwZDEyYS01Nzk5LTQ2MTAtOTY3NC1mMjAxZjA4MzdjOTgiLCJleHAiOjB9">
-                                            patent
-                                        </ExternalLink>{" "}
-                                        for it)
+                                        . (and got patent #US-11477296-B2 for
+                                        it)
                                     </span>
                                 </li>
                                 <li>

@@ -65,8 +65,7 @@ export default function Home() {
                                         Slack
                                     </ExternalLink>
                                     <span className="hidden md:inline">
-                                        . (and got patent #US-11477296-B2 for
-                                        it)
+                                        . (and got patent #US-11477296-B2)
                                     </span>
                                 </li>
                                 <li>
